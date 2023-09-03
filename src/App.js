@@ -12,6 +12,12 @@ import { Helmet } from 'react-helmet';
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 
+// git init
+
+// git config --global user.name "Yeiba"
+
+// git config --global user.email "yeibayalda@gmail.com"
+
 
 
 
