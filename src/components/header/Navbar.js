@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 
 import Aos from 'aos'
@@ -6,32 +6,43 @@ import 'aos/dist/aos.css';
 
 export const Navbar = () => {
   
+  const [activeSection, setActiveSection] = useState(0);
+
   useEffect(() => {
-    Aos.init({duration: 2000});
+    Aos.init({ 
+      disable: function() {
+        var maxWidth = 1025;
+        return window.innerWidth < maxWidth;
+    }
+    ,duration: 2000
+     });
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
 ////////////////////////////////////////////////////////////////
-  let sec = document.querySelectorAll('section');
-  let li = document.querySelectorAll('header nav ul li a');
+const handleScroll = () => {
+  const sections = document.querySelectorAll('section');
+  const navLinks = document.querySelectorAll('header nav ul li a');
+  let len = sections.length - 1;
 
-  function activeMenu(){
-      let len=sec.length;
-      while(--len && window.scrollY + 97 < sec[len].offsetTop){}
-      li.forEach(ltx => ltx.classList.remove("active"));
-      li[len].classList.add("active");
+  while (len >= 0 && window.scrollY + 97 < sections[len].offsetTop) {
+    len--;
   }
 
-  activeMenu();
-  window.addEventListener("scroll", activeMenu)
+  navLinks.forEach((link) => link.classList.remove('active'));
+  navLinks[len].classList.add('active');
+};
 
-  let ul = document.querySelector('header nav ul');
-  let menu = document.querySelector('.menu');
+const toggleMenu = () => {
+  const ul = document.querySelector('header nav ul');
+  const menu = document.querySelector('.menu');
 
-  menu.onclick =function(){
-      ul.classList.toggle('active');
-      menu.classList.toggle('active');
-
-  }
+  ul.classList.toggle('active');
+  menu.classList.toggle('active');
+};
 
   return (
     <>
@@ -54,7 +65,7 @@ export const Navbar = () => {
             </defs>
           </svg> 
         </a>
-        <div data-aos="fade-down" className="menu">
+        <div data-aos="fade-down" className="menu" onClick={toggleMenu}>
             <div className="Component2" >
             
               <div style={{width: 54, height: 26, position: 'relative'}}>
@@ -66,12 +77,14 @@ export const Navbar = () => {
         </div>
         <nav>
       
-            <ul data-aos="fade-down" data-aos-duration="2800" className="Component">
-                <li><a href="#home" className="avtive">Home</a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#work">work</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#contact">contact</a></li>
+            <ul data-aos="fade-down"
+            data-aos-duration="2800"
+            className="Component">
+                <li><a href="#home" className={activeSection === 0 ? 'active' : ''}>Home</a></li>
+                <li><a href="#services" className={activeSection === 1 ? 'active' : ''}>services</a></li>
+                <li><a href="#work" className={activeSection === 2 ? 'active' : ''}>work</a></li>
+                <li><a href="#about" className={activeSection === 3 ? 'active' : ''}>about</a></li>
+                <li><a href="#contact" className={activeSection === 4 ? 'active' : ''}>contact</a></li>
             </ul>
         </nav>
         

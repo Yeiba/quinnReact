@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './components/header/Navbar';
 import Home from './components/section/Home/Home';
@@ -18,15 +18,12 @@ import 'aos/dist/aos.css';
 function App() {
   useEffect(() => {
     Aos.init({ 
-        
-        disable: function() {
-            var maxWidth = 1025;
-            return window.innerWidth < maxWidth;
-        }
-        ,duration: 2000
-        
-    });
-    
+      disable: function() {
+        var maxWidth = 1025;
+        return window.innerWidth < maxWidth;
+    }
+    ,duration: 2000
+     });
   }, []);
       return (
           
