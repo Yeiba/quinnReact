@@ -18,13 +18,8 @@ import 'aos/dist/aos.css';
 
 // git config --global user.email "yeibayalda@gmail.com"
 
-
-
-
 function App() {
-  useEffect(() => {
-    Aos.init({duration: 2000});
-  }, []);
+
       return (
           
           <div className="App">
