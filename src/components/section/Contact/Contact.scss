@@ -1,0 +1,179 @@
+/*-------------------------------------------------contact-----------------------------------------------*/
+
+
+
+@media only screen and (max-width: 1920px) {
+    .contactcontant {
+      
+        max-width: 60rem;
+        padding:0 1.5em;
+        margin: 0 auto;
+    }
+    .info {
+        top: 34%;
+        left: 20%;
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        font-size: 1.5rem;
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-style: normal;
+        text-transform: uppercase;
+    
+        
+    }
+    
+    .SM {
+        top: 30%;
+        left: 55%;
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        font-size: 1.5rem;
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+    
+    .foter {
+        top: 80%;
+        left: 20%;
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        font-size: 1rem;
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+}
+
+
+@media only screen and (max-width: 1600px) {
+
+}
+@media only screen and (max-width: 1440px) {
+    .info {
+        top: 38%;
+        left: 15%;
+        font-size: 1.3rem;
+
+    }
+    
+    .SM {
+        top: 35%;
+        left: 55%;
+        font-size: 1.3rem;
+      
+    }
+
+    .foter {
+
+        left: 15%;
+        font-size: 1.3rem;
+
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .info {
+        top: 30%;
+        left: 10%;
+        
+
+    }
+    
+    .SM {
+        top: 45%;
+        left: 10%;
+
+      
+    }
+    .foter {
+
+        left: 10%;
+        
+
+
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .info {
+        top: 25%;
+        left: 10%;
+        
+
+    }
+    
+    .SM {
+        top: 40%;
+        left: 10%;
+      
+      
+    }
+
+    .foter {
+
+        left: 10%;
+        top: 78%;
+
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .foter {
+        top: 78%;
+
+      
+    }
+
+}
+
+@media only screen and (max-width: 624px) {
+    .info {
+        top: 20%;
+        left: 10%;
+        
+
+    }
+    
+    .SM {
+        top: 35%;
+        left: 10%;
+      
+      
+    }
+    .foter {
+        top: 78%;
+
+      
+    }
+}
+@media only screen and (max-width: 480px) {
+    .info {
+  
+        font-size: 1.1rem;
+
+    }
+    
+    .SM {
+  
+        font-size: 1.1rem;
+      
+    }
+    .foter {
+        top: 70%;
+        font-size: 1.1rem;
+      
+    }
+}
