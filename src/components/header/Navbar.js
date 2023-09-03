@@ -9,17 +9,19 @@ export const Navbar = () => {
   const [activeSection, setActiveSection] = useState(0);
 
   useEffect(() => {
-    Aos.init({ 
-      disable: function() {
-        var maxWidth = 1025;
-        return window.innerWidth < maxWidth;
+    // Check the window width
+    const isWideEnough = window.innerWidth > 1025;
+
+    if (isWideEnough) {
+      Aos.init({
+        duration: 2000
+      });
+    } else {
+      // If not wide enough, disable AOS
+      Aos.init({
+        disable: true
+      });
     }
-    ,duration: 2000
-     });
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
   }, []);
 
 ////////////////////////////////////////////////////////////////
@@ -48,7 +50,7 @@ const toggleMenu = () => {
     <>
     <body>
         <header>
-        <a data-aos="fade-down" href="#home" className="Logo">
+        <a data-aos="fade-down" data-aos-duration="2800" href="#home" className="Logo">
           <svg xmlns="http://www.w3.org/2000/svg">
             <g >
             <path d="M23.5745 18.3856C24.2172 16.8728 24.5337 15.2591 24.5337 13.5244C24.5337 11.8402 24.2172 10.2366 23.5745 8.7339C22.9317 7.2211 22.0417 5.88983 20.8947 4.71993C19.7476 3.56012 18.4423 2.64235 16.959 1.97672C15.4757 1.31109 13.9034 0.978272 12.2322 0.978272C10.5314 0.978272 8.9492 1.31109 7.46591 1.97672C5.98262 2.64235 4.68721 3.56012 3.56979 4.71993C2.45238 5.88983 1.57229 7.2211 0.949308 8.7339C0.316436 10.2467 4.26341e-08 11.8402 4.9245e-08 13.5244C5.60538e-08 15.2591 0.316436 16.8728 0.949308 18.3856C1.58218 19.8984 2.45238 21.2195 3.57968 22.3592C4.6971 23.4988 6.00239 24.3964 7.4758 25.0419C8.95909 25.6874 10.5413 26.0101 12.2421 26.0101C13.1222 26.0101 13.9627 25.9193 14.7934 25.7479L25.0677 25.7479C25.5225 25.7479 25.8884 25.3747 25.8884 24.9108L25.8884 21.865C25.8884 21.4011 25.5225 21.0279 25.0677 21.0279L22.0516 21.0279C22.6548 20.2009 23.169 19.3336 23.5745 18.3856ZM9.44363 20.7153C8.54377 20.3119 7.74279 19.7572 7.06048 19.031C6.37816 18.315 5.84418 17.4779 5.45852 16.5299C5.07286 15.5919 4.88498 14.5834 4.88498 13.5143C4.88498 12.4453 5.07286 11.4469 5.43874 10.4988C5.80462 9.56089 6.32872 8.7339 7.00115 8.01784C7.67357 7.31186 8.45477 6.75717 9.35464 6.35376C10.2545 5.95034 11.2137 5.75872 12.2619 5.75872C13.3101 5.75872 14.2693 5.96043 15.1691 6.35376C16.0591 6.75717 16.8403 7.31186 17.5029 8.01784C18.1654 8.72381 18.6895 9.55081 19.0653 10.4988C19.441 11.4469 19.6388 12.4453 19.6388 13.5143C19.6388 14.6036 19.4509 15.6121 19.085 16.5601C18.7192 17.5081 18.205 18.3251 17.5523 19.0411C16.8997 19.7471 16.1283 20.3018 15.2483 20.7052C14.3682 21.1086 13.4189 21.3002 12.3904 21.3002C11.3324 21.3103 10.3534 21.1086 9.44363 20.7153Z" fill="#D1D1D1"/>
@@ -65,7 +67,7 @@ const toggleMenu = () => {
             </defs>
           </svg> 
         </a>
-        <div data-aos="fade-down" className="menu" onClick={toggleMenu}>
+        <div data-aos="fade-down" data-aos-duration="2800" className="menu" onClick={toggleMenu}>
             <div className="Component2" >
             
               <div style={{width: 54, height: 26, position: 'relative'}}>
@@ -77,9 +79,7 @@ const toggleMenu = () => {
         </div>
         <nav>
       
-            <ul data-aos="fade-down"
-            data-aos-duration="2800"
-            className="Component">
+            <ul data-aos="fade-down" data-aos-duration="2800" className="Component">
                 <li><a href="#home" className={activeSection === 0 ? 'active' : ''}>Home</a></li>
                 <li><a href="#services" className={activeSection === 1 ? 'active' : ''}>services</a></li>
                 <li><a href="#work" className={activeSection === 2 ? 'active' : ''}>work</a></li>
