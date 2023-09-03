@@ -23,13 +23,7 @@ import 'aos/dist/aos.css';
 
 function App() {
   useEffect(() => {
-    // Disable AOS when the window width is less than 1025 pixels
-    if (window.innerWidth >= 1025) {
-      Aos.init({
-        duration: 2000,
-        // other AOS options
-      });
-    }
+    Aos.init({duration: 2000});
   }, []);
       return (
           

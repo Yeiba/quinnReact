@@ -7,6 +7,8 @@ import 'aos/dist/aos.css';
 export const Navbar = () => {
   
   const [activeSection, setActiveSection] = useState(0);
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
 
   useEffect(() => {
     // Check the window width
@@ -22,29 +24,53 @@ export const Navbar = () => {
         disable: true
       });
     }
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+    window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
 ////////////////////////////////////////////////////////////////
 const handleScroll = () => {
-  const sections = document.querySelectorAll('section');
-  const navLinks = document.querySelectorAll('header nav ul li a');
-  let len = sections.length - 1;
+  const sectionOffsets = {
+    home: document.getElementById('home').offsetTop,
+    services: document.getElementById('services').offsetTop,
+    work: document.getElementById('work').offsetTop,
+    about: document.getElementById('about').offsetTop,
+    contact: document.getElementById('contact').offsetTop
+  };
 
-  while (len >= 0 && window.scrollY + 97 < sections[len].offsetTop) {
-    len--;
+  let active = 0;
+  let scrollY = window.scrollY;
+
+  // Determine the active section based on scroll position
+  for (const section in sectionOffsets) {
+    if (scrollY >= sectionOffsets[section] - 50) {
+      active = section;
+    }
   }
 
-  navLinks.forEach((link) => link.classList.remove('active'));
-  navLinks[len].classList.add('active');
+  setActiveSection(active);
 };
 
+// Function to toggle the visibility of the mobile menu
 const toggleMenu = () => {
-  const ul = document.querySelector('header nav ul');
-  const menu = document.querySelector('.menu');
-
-  ul.classList.toggle('active');
-  menu.classList.toggle('active');
+  setIsMenuVisible(!isMenuVisible);
 };
+
+// Function to scroll to a section when a menu item is clicked
+const scrollToSection = (section) => {
+  const sectionElement = document.getElementById(section);
+  if (sectionElement) {
+    sectionElement.scrollIntoView({ behavior: 'smooth' });
+    setIsMenuVisible(true); // Close the menu when a section is clicked
+  }
+};
+//////////////////////////
+
 
   return (
     <>
@@ -67,7 +93,7 @@ const toggleMenu = () => {
             </defs>
           </svg> 
         </a>
-        <div data-aos="fade-down" data-aos-duration="2800" className="menu" onClick={toggleMenu}>
+        <div data-aos="fade-down" data-aos-duration="2800" className={`menu ${isMenuVisible ? 'active' : ''}`} onClick={toggleMenu}>
             <div className="Component2" >
             
               <div style={{width: 54, height: 26, position: 'relative'}}>
@@ -79,12 +105,12 @@ const toggleMenu = () => {
         </div>
         <nav>
       
-            <ul data-aos="fade-down" data-aos-duration="2800" className="Component">
-                <li><a href="#home" className={activeSection === 0 ? 'active' : ''}>Home</a></li>
-                <li><a href="#services" className={activeSection === 1 ? 'active' : ''}>services</a></li>
-                <li><a href="#work" className={activeSection === 2 ? 'active' : ''}>work</a></li>
-                <li><a href="#about" className={activeSection === 3 ? 'active' : ''}>about</a></li>
-                <li><a href="#contact" className={activeSection === 4 ? 'active' : ''}>contact</a></li>
+            <ul className={`Component ${isMenuVisible ? 'active' : ''}`}>
+                <li><a href="#home" className={activeSection === 'home' ? 'active' : ''} onClick={() => scrollToSection('home')}>Home</a></li>
+                <li><a href="#services" className={activeSection === 'services' ? 'active' : ''} onClick={() => scrollToSection('services')}>services</a></li>
+                <li><a href="#work" className={activeSection === 'work' ? 'active' : ''} onClick={() => scrollToSection('work')}>work</a></li>
+                <li><a href="#about" className={activeSection === 'about' ? 'active' : ''} onClick={() => scrollToSection('about')}>about</a></li>
+                <li><a href="#contact" className={activeSection === 'contact' ? 'active' : ''} onClick={() => scrollToSection('contact')}>contact</a></li>
             </ul>
         </nav>
         
