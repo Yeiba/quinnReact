@@ -133,7 +133,7 @@ p {
     mix-blend-mode: difference;
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 25%;
     color: #D1D1D1;
     text-align: left;
     font-family: Helvetica;
@@ -148,7 +148,7 @@ p {
   .homeP {
     position: absolute;
     top: 65%;
-    left: 20%;
+    left: 25%;
     color: #D1D1D1;
     text-align: left;
     font-family: Helvetica;
@@ -261,12 +261,12 @@ p {
   }
   .homeTitele {
     top: 30%;
-    left: 20%;
+    left: 25%;
     font-size: 5.5rem;
   }
   .homeP {
     top: 60%;
-    left: 20%;
+    left: 25%;
     font-size: 1rem;
   }
   #home_1 {
@@ -369,13 +369,13 @@ p {
     display: flex;
   }
   .homeTitele {
-    top: 28%;
-    left: 15%;
+    top: 30%;
+    left: 22%;
     font-size: 5.5rem;
   }
   .homeP {
-    top: 58%;
-    left: 15%;
+    top: 60%;
+    left: 22%;
     font-size: 1rem;
   }
   #home_1 {
@@ -479,12 +479,12 @@ p {
   }
   .homeTitele {
     top: 28%;
-    left: 15%;
+    left: 20%;
     font-size: 5rem;
   }
   .homeP {
     top: 58%;
-    left: 15%;
+    left: 20%;
     font-size: 1rem;
   }
   #home_1 {
