@@ -3,16 +3,47 @@ import './Home.css';
 
 import Aos from 'aos'
 import 'aos/dist/aos.css';
+
+import { TypeAnimation } from 'react-type-animation';
+
+
 export const Home = () => {
   useEffect(() => {
     Aos.init({duration: 2000});
   }, []);
+
+
   return (
     <>
      <section class="home" id="home">
             <div class="contant" >
         
-                <div data-aos="fade-right" class="homeTitele">we create all<br/> @wow's<br/>#DESIGN_IDEAS\</div>
+                <div   data-aos="fade-right" class="homeTitele">
+                  <span>we create all<br/> @wow's<br/>{" "}</span>
+                  
+                  <TypeAnimation
+                    sequence={[
+                      // Same substring at the start will only be typed out once, initially
+                      '#DESIGN_IDEAS\\',
+                      1000, // wait 1s before replacing "Mice" with "Hamsters"
+                      '#Marketing\\',
+                      1000,
+                      '#branding\\',
+                      1000,
+                      '#developement\\',
+                      1000,
+                      '#3D_products\\',
+                      1000,
+                      '#Filmmaking\\',
+                      1000,
+                      
+                    ]}
+                    wrapper="span"
+                    speed={5}
+                   
+                    repeat={Infinity}
+                  />
+                </div>
                 
                 <p data-aos="fade-up" data-aos-duration="2800" class="homeP">NO NEED TO SPEND more hours ON JUST<br/> searching FOR creative agency.<br/> our agency create beitching ideas.</p>
      

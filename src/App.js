@@ -12,6 +12,10 @@ import { Helmet } from 'react-helmet';
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 
+// npm start
+
+// npm run build
+
 // git init
 
 // git config --global user.name "Yeiba"

@@ -155,15 +155,7 @@ p {
        
      
     }
-    .contant {
-        position: relative; 
-        display: grid;
-        place-items: center;
-        max-width: 60rem;
-        padding:0 1em;
-        margin: 0 auto;
 
-    }
 
 
     .homeTitele {
@@ -176,11 +168,12 @@ p {
         position: absolute;
        
         top: 30%;
+        left: 20%;
 
         color: #D1D1D1;
-        text-align: center;
+        text-align: left;
         font-family: Helvetica;
-        font-size: 6.5rem;
+        font-size: 6rem;
         font-style: normal;
         font-weight: 500;
         line-height: 88.5%; /* 4.97813rem */
@@ -189,16 +182,17 @@ p {
         z-index: 1;
      
     }
+    
 
     .homeP {
 
 
-        position: relative;
-        top:20%;
-       
+        position: absolute;
+        top: 65%;
+        left: 20%;
 
         color: #D1D1D1;
-        text-align: center;
+        text-align: left;
         font-family: Helvetica;
         font-size: 1rem;
         font-style: normal;
@@ -324,7 +318,26 @@ p {
         display: flex; 
     }
 
+    .homeTitele {
 
+       
+        top: 30%;
+        left: 20%;
+
+        font-size: 5.5rem;
+        
+     
+    }
+    
+
+    .homeP {
+
+        top: 60%;
+        left: 20%;
+
+        font-size: 1rem;
+ 
+    }
 
 
     #home_1 {
@@ -441,7 +454,26 @@ p {
         display: flex; 
     }
 
+    .homeTitele {
 
+       
+        top: 28%;
+        left: 15%;
+
+        font-size: 5.5rem;
+        
+     
+    }
+    
+
+    .homeP {
+
+        top: 58%;
+        left: 15%;
+
+        font-size: 1rem;
+ 
+    }
 
 
     #home_1 {
@@ -555,7 +587,26 @@ p {
         position: relative; 
         display: flex; 
     }
+    .homeTitele {
 
+       
+        top: 28%;
+        left: 15%;
+
+        font-size: 5rem;
+        
+     
+    }
+    
+
+    .homeP {
+
+        top: 58%;
+        left: 15%;
+
+        font-size: 1rem;
+ 
+    }
 
     #home_1 {
         width: 415px; 
@@ -673,14 +724,23 @@ p {
 
     .homeTitele {
 
+       
         top: 30%;
-        font-size: 5.5rem;
+        left: 12%;
+
+        font-size: 5rem;
+        
+     
     }
+    
 
     .homeP {
 
-        top: 12%;
+        top: 60%;
+        left: 12%;
+
         font-size: 1rem;
+ 
     }
 
 
@@ -799,14 +859,23 @@ p {
    
     .homeTitele {
 
-        top: 35%;
-        font-size: 4.5rem;
+       
+        top: 30%;
+        left: 12%;
+
+        font-size: 4rem;
+        
+     
     }
+    
 
     .homeP {
 
-        top: 10%;
+        top: 55%;
+        left: 12%;
+
         font-size: .8rem;
+ 
     }
 
   
@@ -925,16 +994,24 @@ p {
 
     .homeTitele {
 
+       
         top: 35%;
-        font-size: 4rem;
+        left: 10%;
+
+        font-size: 3.5rem;
+        
+     
     }
+    
 
     .homeP {
 
-        top: 10%;
-        font-size: .6rem;
-    }
+        top: 55%;
+        left: 10%;
 
+        font-size: .7rem;
+ 
+    }
     #home_1 {
         
         width: 150px; height: 317px; left: 0px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 8px
@@ -988,15 +1065,24 @@ p {
 
 
     .homeTitele {
+
+       
+        top: 28%;
+        left: 10%;
+
+        font-size: 3rem;
         
-        top: 35%;
-        font-size: 3.5rem;
+     
     }
+    
 
     .homeP {
 
-        top: 8%;
+        top: 45%;
+        left: 10%;
+
         font-size: .6rem;
+ 
     }
 
    
