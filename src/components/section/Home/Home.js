@@ -24,18 +24,19 @@ export const Home = () => {
                   <TypeAnimation
                     sequence={[
                       // Same substring at the start will only be typed out once, initially
+                      1500,
                       '#DESIGN_IDEAS\\',
-                      1000, // wait 1s before replacing "Mice" with "Hamsters"
+                      1500, // wait 1s before replacing "Mice" with "Hamsters"
                       '#Marketing\\',
-                      1000,
+                      1500,
                       '#branding\\',
-                      1000,
+                      1500,
                       '#developement\\',
-                      1000,
+                      1500,
                       '#3D_products\\',
-                      1000,
+                      1500,
                       '#Filmmaking\\',
-                      1000,
+                      1500,
                       
                     ]}
                     wrapper="span"
