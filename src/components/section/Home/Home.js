@@ -37,7 +37,7 @@ export const Home = () => {
                       1500,
                       '#production\\',
                       1500,
-                      '#organizing\\',
+                      '#Eventes\\',
                       1500,
                     ]}
                     wrapper="span"
