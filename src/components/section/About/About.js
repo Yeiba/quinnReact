@@ -16,16 +16,15 @@ export const About = () => {
                
                 <div data-aos="fade-up" class="name">yaakoub belhardi</div>
                 <div data-aos="fade-up" class="position">CEO,Founder </div>
-                <p data-aos="fade-up" data-aos-duration="3500" class="dis"><br/>Creative Graphic Designer and Motion Graphic and video editor film maker, 3D Artist modeling and sclupting, and Data analytics and machine learning by Python.</p>
+                <p data-aos="fade-up" data-aos-duration="3500" class="dis"><br/>Graphic Designer and developer from Algeria. Creative, independent and detail-oriented graphic designer with seven years of experience in digital brand management.</p>
 
                 <div data-aos="fade-up" class="team">our team</div>
              
-                <p data-aos="fade-up" data-aos-duration="3500" class="dis2"><br/>Companies often generalize their offering in the website copy, making it hard to understand what the customer is actually paying for. 
-                    In a sentence or two, explain exactly what a potential customer will gain from your business.</p>
+                <p data-aos="fade-up" data-aos-duration="3500" class="dis2"><br/>Nomade creatives around the world, we welcoming you to join us if you're a creative artist.</p>
                 
                     <div data-aos="fade-up" class="boit">what's quinn</div>
              
-                    <p data-aos="fade-up" data-aos-duration="3500" class="dis3"><br/>Quinn is a gender-neutral name with Irish roots that means "wise," "sense," or "reason." It comes from the Old Irish word Ceann or Conn, meaning "head" or "chief." The last names Ó Coinn and Ó Cuinn, which mean "descending from Conn," became common in Ireland. They were anglicized to Quinn in the 17th century.</p>
+                    <p data-aos="fade-up" data-aos-duration="3500" class="dis3"><br/>Quinn is a gender-neutral name with Irish roots that means "wise," "sense," or "reason." It comes from the Old Irish word Ceann or Conn.</p>
             </div>
             <div class="Background">
                 <div class="Frame2" id="home_1"></div>

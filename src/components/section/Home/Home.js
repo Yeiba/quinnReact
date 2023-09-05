@@ -27,17 +27,18 @@ export const Home = () => {
                       1500,
                       '#DESIGN_IDEAS\\',
                       1500, // wait 1s before replacing "Mice" with "Hamsters"
-                      '#Marketing\\',
-                      1500,
                       '#branding\\',
                       1500,
-                      '#developement\\',
+                      '#strategies\\',
                       1500,
-                      '#3D_products\\',
+                      '#development\\',
                       1500,
-                      '#Filmmaking\\',
+                      '#advertising\\',
                       1500,
-                      
+                      '#production\\',
+                      1500,
+                      '#organizing\\',
+                      1500,
                     ]}
                     wrapper="span"
                     speed={5}
