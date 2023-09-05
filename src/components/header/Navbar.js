@@ -108,7 +108,7 @@ const scrollToSection = (section) => {
             <ul data-aos="fade-down" data-aos-duration="2800" className={`Component ${isMenuVisible ? 'active' : ''}`}>
                 <li><a href="#home" className={activeSection === 'home' ? 'active' : ''} onClick={() => scrollToSection('home')}>Home</a></li>
                 <li><a href="#services" className={activeSection === 'services' ? 'active' : ''} onClick={() => scrollToSection('services')}>services</a></li>
-                <li><a href="#work" className={activeSection === 'work' ? 'active' : ''} onClick={() => scrollToSection('work')}>work</a></li>
+                <li><a href="#work" className={activeSection === 'work' ? 'active' : ''} onClick={() => scrollToSection('work')}>projects</a></li>
                 <li><a href="#about" className={activeSection === 'about' ? 'active' : ''} onClick={() => scrollToSection('about')}>about</a></li>
                 <li><a href="#contact" className={activeSection === 'contact' ? 'active' : ''} onClick={() => scrollToSection('contact')}>contact</a></li>
             </ul>
