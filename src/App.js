@@ -38,7 +38,7 @@ function App() {
             <Navbar /> 
             <Home /> 
             <Services /> 
-           <Projects /> 
+            <Projects /> 
             <About /> 
             <Contact /> 
           </div>

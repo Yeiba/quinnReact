@@ -17,7 +17,7 @@ export const Contact = () => {
                
                 <div data-aos="fade-up" class="info">jacob@quinn.com<br/>
                     yaakoubbelhardi@gamil.com<br/>
-                    said hamdine, bir mourad raïs, ALGER<br/>
+                    said hamdine, bir mourad raïs, ALGIERS<br/>
                     (+213) 558 64 84 73
                     
                 </div>

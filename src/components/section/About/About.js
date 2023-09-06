@@ -15,12 +15,12 @@ export const About = () => {
             <div class="aboutcontant" >
                
                 <div data-aos="fade-up" class="name">yaakoub belhardi</div>
-                <div data-aos="fade-up" class="position">CEO,Founder </div>
+                <div data-aos="fade-up" class="position">CEO, Founder </div>
                 <p data-aos="fade-up" data-aos-duration="3500" class="dis"><br/>Graphic Designer and developer from Algeria. Creative, independent and detail-oriented graphic designer with seven years of experience in digital brand management.</p>
 
                 <div data-aos="fade-up" class="team">our team</div>
              
-                <p data-aos="fade-up" data-aos-duration="3500" class="dis2"><br/>Nomade creatives around the world, we welcoming you to join us if you're a creative artist.</p>
+                <p data-aos="fade-up" data-aos-duration="3500" class="dis2"><br/>Nomade creatives around the world, if you're a creative artist we welcoming you to join us.</p>
                 
                     <div data-aos="fade-up" class="boit">what's quinn</div>
              

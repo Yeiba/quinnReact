@@ -52,13 +52,12 @@ export const Projects = () => {
                         <p data-aos="fade-up" href="" class="WorkP">
 
                             see project <br/>
-                          
 
                         </p>
                        
                     </div>
                     <div class="box2">
-                        <h1 data-aos="fade-right" class="WorkH">wassila</h1>
+                        <h1 data-aos="fade-right" class="WorkH">Mansa</h1>
                         <p data-aos="fade-up" href="" class="WorkP">
 
                             see project <br/>
