@@ -11,7 +11,7 @@
     position: absolute;
     display: flex;
     z-index: 99;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     mix-blend-mode: difference;
     color: #D1D1D1;
     text-align: left;
@@ -25,26 +25,26 @@
     position: absolute;
     display: flex;
     z-index: 99;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     mix-blend-mode: difference;
     color: #D1D1D1;
     text-align: left;
     font-family: Helvetica;
-    font-style: italic;
+    font-style: normal;
     text-transform: uppercase;
   }
   .foter {
     top: 80%;
-    left: 20%;
+    left: 40%;
     position: absolute;
     display: flex;
     z-index: 99;
-    font-size: 1rem;
+    font-size: 1.2rem;
     mix-blend-mode: difference;
     color: #D1D1D1;
-    text-align: left;
+    text-align: center;
     font-family: Helvetica;
-    font-style: italic;
+    font-style: normal;
     text-transform: uppercase;
   }
 }
@@ -60,7 +60,7 @@
     font-size: 1.3rem;
   }
   .foter {
-    left: 15%;
+    left: 35%;
     font-size: 1.3rem;
   }
 }
@@ -74,7 +74,7 @@
     left: 10%;
   }
   .foter {
-    left: 10%;
+    left: 35%;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -87,13 +87,14 @@
     left: 10%;
   }
   .foter {
-    left: 10%;
+    left: 30%;
     top: 78%;
   }
 }
 @media only screen and (max-width: 768px) {
   .foter {
     top: 78%;
+    left: 25%;
   }
 }
 @media only screen and (max-width: 624px) {
@@ -107,6 +108,7 @@
   }
   .foter {
     top: 78%;
+    left: 20%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -119,5 +121,6 @@
   .foter {
     top: 70%;
     font-size: 1.1rem;
+    left: 15%;
   }
 }/*# sourceMappingURL=Contact.css.map */

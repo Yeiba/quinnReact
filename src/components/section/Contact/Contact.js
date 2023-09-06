@@ -12,7 +12,7 @@ export const Contact = () => {
   return (
     <>
      <section id="contact">
-            <div data-aos="fade-right" class="note2">#contact\</div>
+            <div data-aos="fade-right" class="note2">#contact_us\</div>
             <div class="contactcontant" >
                
                 <div data-aos="fade-up" class="info">jacob@quinn.com<br/>
@@ -29,10 +29,10 @@ export const Contact = () => {
                     <br/>www.behance.net/quinndsgn/
                     
                 </div>
-                <div data-aos="fade-right"  class="foter">
-                    created by yaakoub belhardi 2023<br/>  
+                <div  class="foter">
+                    created by Quinn Studio 2023<br/>  
                     all rights reserved<br/>  
-                    ////////////////////////////////////////////////////////////////////////<br/>  
+                  
                 </div>
             </div>
             <div class="Background">
