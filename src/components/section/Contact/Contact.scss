@@ -94,7 +94,7 @@
     .SM {
         top: 45%;
         left: 10%;
-
+        text-align: left;
       
     }
     .foter {
@@ -117,14 +117,14 @@
     .SM {
         top: 40%;
         left: 10%;
-      
+        text-align: left;
       
     }
 
     .foter {
 
         left: 30%;
-        top: 78%;
+        top: 80%;
 
 
     }
@@ -132,7 +132,7 @@
 
 @media only screen and (max-width: 768px) {
     .foter {
-        top: 78%;
+        top: 80%;
         left: 25%;
       
     }
@@ -154,7 +154,7 @@
       
     }
     .foter {
-        top: 78%;
+        top: 80%;
         left: 20%;
       
     }
@@ -172,9 +172,9 @@
       
     }
     .foter {
-        top: 70%;
+        top: 80%;
         font-size: 1.1rem;
-        left: 15%;
+        left: 18%;
       
     }
 }
