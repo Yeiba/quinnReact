@@ -93,12 +93,10 @@
   }
   .foter {
     left: 30%;
-    top: 80%;
   }
 }
 @media only screen and (max-width: 768px) {
   .foter {
-    top: 80%;
     left: 25%;
   }
 }
@@ -112,7 +110,6 @@
     left: 10%;
   }
   .foter {
-    top: 80%;
     left: 20%;
   }
 }
@@ -124,7 +121,6 @@
     font-size: 0.8rem;
   }
   .foter {
-    top: 80%;
     font-size: 0.8rem;
     left: 18%;
   }
