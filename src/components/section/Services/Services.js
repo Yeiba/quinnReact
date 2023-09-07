@@ -24,7 +24,7 @@ export const Services = () => {
                             #LOGO_DESIGN<br/>
                             #LOGO_ANIMATION<br/>
                             #BRAND_VISUAL_IDENTETY<br/>
-                            #SOCIAL_MEDIA_ADS DESIGN<br/>
+                            #SOCIAL_MEDIA_ADS_DESIGN<br/>
                             #EVENTS_ORGANIZATION<br/>
                             
 
@@ -41,13 +41,13 @@ export const Services = () => {
                         </p>
                     </div>
                     <div class="box">
-                        <h1 data-aos="fade-right" class="ServH">FILM MAKING</h1>
-                        <p data-aos="fade-up" class="ServP">#ADVERTISING_#VIDEO<br/> 
+                        <h1 data-aos="fade-right" class="ServH">FILMMAKING</h1>
+                        <p data-aos="fade-up" class="ServP">#ADVERTISING_VIDEOS<br/> 
                             #MUSIC_VEDIOS <br/> 
-                            #PODCASTS_VEDIOS <br/> 
-                            #EDITING_&_COMPOSITING <br/> 
-                            #VFX <br/> 
-                            
+                            #PODCASTS_ViDeOS <br/> 
+                            #cinematography<br/> 
+                            #documentary<br/> 
+                            #real_estate<br/>
                         </p>
                     </div>
                     <div class="box">
@@ -57,7 +57,7 @@ export const Services = () => {
                             #3D_SCLUPTING<br/>
                             #3D_ANIMATIONS<br/>
                             #real_estate<br/>
-                            #CGI <br/> 
+                            
                         </p>
                     </div>
                     <div class="box">
