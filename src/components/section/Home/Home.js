@@ -17,8 +17,16 @@ export const Home = () => {
     <>
      <section class="home" id="home">
             <div class="contant" >
-        
+                <div class="Arrow"  >
+                  <a href="#contact">
+                    <p>
+                      if you're on fire!
+                    </p>
+                  </a>
+                 
+                </div>
                 <div   data-aos="fade-right" class="homeTitele">
+                
                   <span>we create all<br/> @wow's<br/>{" "}</span>
                   
                   <TypeAnimation
@@ -48,7 +56,12 @@ export const Home = () => {
                 </div>
                 
                 <p data-aos="fade-up" data-aos-duration="2800" class="homeP">NO NEED TO SPEND more hours ON JUST<br/> searching FOR creative agency.<br/> our agency create beitching ideas.</p>
-     
+                
+               
+                
+
+
+             
             </div>
             <div class="Background">
                 <div class="Frame1" id="home_1"></div>

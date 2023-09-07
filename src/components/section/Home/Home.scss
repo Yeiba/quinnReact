@@ -8,6 +8,7 @@
     scrollbar-width: thin;
     
 }
+
 img {
     transition: 1s;
     &:hover{
@@ -154,6 +155,19 @@ p {
         display: flex; 
        
      
+    }
+
+    .Arrow{
+        position: absolute;
+        z-index: 99;
+        left: 75%;
+        top: 40%;
+        max-width: 10%;
+        transform: rotate(90deg); 
+        transform-origin: 0 0;  
+        mix-blend-mode: difference;
+        text-decoration: none;
+        word-wrap: break-word;
     }
 
 
@@ -318,6 +332,13 @@ p {
         display: flex; 
     }
 
+    .Arrow{
+        
+        left: 80%;
+        top: 40%;
+        
+    }
+
     .homeTitele {
 
        
@@ -454,6 +475,13 @@ p {
         display: flex; 
     }
 
+    .Arrow{
+        
+        left: 84%;
+        top: 40%;
+        
+    }
+
     .homeTitele {
 
        
@@ -587,6 +615,14 @@ p {
         position: relative; 
         display: flex; 
     }
+
+    .Arrow{
+        
+        left: 84%;
+        top: 40%;
+        
+    }
+
     .homeTitele {
 
        
@@ -720,7 +756,13 @@ p {
         display: flex; 
     }
 
-
+    .Arrow{
+        
+        left: 85%;
+        top: 40%;
+        max-width: 15%;
+        
+    }
 
     .homeTitele {
 
@@ -855,6 +897,14 @@ p {
 
         position: relative; 
         display: flex; 
+    }
+
+    .Arrow{
+        
+        left: 18%;
+        top: 70%;
+        max-width:20%;
+        
     }
    
     .homeTitele {
@@ -991,7 +1041,13 @@ p {
         display: flex; 
     }
    
-
+    .Arrow{
+        
+        left: 18%;
+        top: 70%;
+        max-width:25%;
+        
+    }
     .homeTitele {
 
        
@@ -1061,7 +1117,15 @@ p {
         position: relative; 
         display: flex; 
     }
-   
+    
+
+    .Arrow{
+        
+        left: 18%;
+        top: 65%;
+        max-width: 40%;
+        
+    }
 
 
     .homeTitele {
