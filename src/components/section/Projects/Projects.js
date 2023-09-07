@@ -19,50 +19,70 @@ export const Projects = () => {
                     <div class="border_2_1" ></div>
                     
                     <div class="box2">
-                        <h1 data-aos="fade-right" class="WorkH">Nula </h1>
+                        <h1 data-aos="fade-right" class="WorkH">
+                            Nula<br/> 
+                            full branding <br/> 
+                            </h1>
                         <p data-aos="fade-up" class="WorkP">
                            
-                            
-                            see project <br/>
+                            virtual project  <br/>
+                            #suggestion_project <br/>
                             
 
                         </p>
                     </div>
                     <div class="box2">
-                        <h1 data-aos="fade-right" class="WorkH">Bricool</h1>
+                        <h1 data-aos="fade-right" class="WorkH">
+                            Bricool<br/> 
+                            full branding <br/> 
+                        </h1>
                         <p data-aos="fade-up" href="" class="WorkP">
 
-                            see project <br/>
+                            real project  <br/>
+                            #suggestion_project <br/>
                            
                         </p>
                        
                     </div>
                     <div class="box2">
-                        <h1 data-aos="fade-right" class="WorkH">kacademy</h1>
+                        <h1 data-aos="fade-right" class="WorkH">
+                            kacademy <br/> 
+                            full branding <br/> 
+                            </h1>
                         <p data-aos="fade-up" href="" class="WorkP">
 
-                            see project <br/>
+                            real project  <br/>
+                            #suggestion_project <br/>
                           
 
                         </p>
                         
                     </div>
                     <div class="box2">
-                        <h1 data-aos="fade-right" class="WorkH">iprobooking</h1>
+                        <h1 data-aos="fade-right" class="WorkH">
+                            iprobooking<br/> 
+                            full branding <br/> 
+                            DATA SCIENCE <br/>
+                            </h1>
                         <p data-aos="fade-up" href="" class="WorkP">
 
-                            see project <br/>
+                            real project  <br/>
+                            #suggestion_project <br/>
 
                         </p>
                        
                     </div>
                     <div class="box2">
-                        <h1 data-aos="fade-right" class="WorkH">Mansa</h1>
-                        <p data-aos="fade-up" href="" class="WorkP">
-
-                            see project <br/>
+                        <h1 data-aos="fade-right" class="WorkH">
+                            see  <br/>
+                            all projects
+                            </h1>
                         
-                        </p>
+
+                            
+                            
+                        
+                       
                      
                     </div>
                     <div class="border_2_2" ></div>

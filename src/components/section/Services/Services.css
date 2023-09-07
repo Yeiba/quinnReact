@@ -29,11 +29,12 @@
     mix-blend-mode: difference;
   }
   .ServH {
-    font-size: 2rem;
+    font-size: 1.5rem;
     mix-blend-mode: difference;
+    font-weight: 50;
   }
   .ServP {
-    font-size: 1rem;
+    font-size: 0.8rem;
     mix-blend-mode: difference;
   }
   .outer {
