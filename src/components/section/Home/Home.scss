@@ -157,7 +157,7 @@ p {
      
     }
 
-    .Arrow{
+    .Arrow a p {
         position: absolute;
         z-index: 99;
         left: 75%;
@@ -168,7 +168,10 @@ p {
         mix-blend-mode: difference;
         text-decoration: none;
         word-wrap: break-word;
+        text-decoration-line: none ;
     }
+
+ 
 
 
 
@@ -332,7 +335,7 @@ p {
         display: flex; 
     }
 
-    .Arrow{
+    .Arrow a p {
         
         left: 80%;
         top: 40%;
@@ -475,7 +478,7 @@ p {
         display: flex; 
     }
 
-    .Arrow{
+    .Arrow a p {
         
         left: 84%;
         top: 40%;
@@ -616,7 +619,7 @@ p {
         display: flex; 
     }
 
-    .Arrow{
+    .Arrow a p {
         
         left: 84%;
         top: 40%;
@@ -756,7 +759,7 @@ p {
         display: flex; 
     }
 
-    .Arrow{
+    .Arrow a p {
         
         left: 85%;
         top: 40%;
@@ -899,7 +902,7 @@ p {
         display: flex; 
     }
 
-    .Arrow{
+    .Arrow a p {
         
         left: 18%;
         top: 70%;
@@ -1041,7 +1044,7 @@ p {
         display: flex; 
     }
    
-    .Arrow{
+    .Arrow a p {
         
         left: 18%;
         top: 70%;
@@ -1119,7 +1122,7 @@ p {
     }
     
 
-    .Arrow{
+    .Arrow a p {
         
         left: 18%;
         top: 65%;

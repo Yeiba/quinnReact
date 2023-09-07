@@ -17,7 +17,7 @@ export const Home = () => {
     <>
      <section class="home" id="home">
             <div class="contant" >
-                <div class="Arrow"  >
+                <div class="Arrow">
                   <a href="#contact">
                     <p>
                       if you're on fire!

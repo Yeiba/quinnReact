@@ -128,7 +128,7 @@ p {
     position: relative;
     display: flex;
   }
-  .Arrow {
+  .Arrow a p {
     position: absolute;
     z-index: 99;
     left: 75%;
@@ -139,6 +139,7 @@ p {
     mix-blend-mode: difference;
     text-decoration: none;
     word-wrap: break-word;
+    text-decoration-line: none;
   }
   .homeTitele {
     transition: 0.7s;
@@ -271,7 +272,7 @@ p {
     position: relative;
     display: flex;
   }
-  .Arrow {
+  .Arrow a p {
     left: 80%;
     top: 40%;
   }
@@ -384,7 +385,7 @@ p {
     position: relative;
     display: flex;
   }
-  .Arrow {
+  .Arrow a p {
     left: 84%;
     top: 40%;
   }
@@ -497,7 +498,7 @@ p {
     position: relative;
     display: flex;
   }
-  .Arrow {
+  .Arrow a p {
     left: 84%;
     top: 40%;
   }
@@ -610,7 +611,7 @@ p {
     position: relative;
     display: flex;
   }
-  .Arrow {
+  .Arrow a p {
     left: 85%;
     top: 40%;
     max-width: 15%;
@@ -724,7 +725,7 @@ p {
     position: relative;
     display: flex;
   }
-  .Arrow {
+  .Arrow a p {
     left: 18%;
     top: 70%;
     max-width: 20%;
@@ -838,7 +839,7 @@ p {
     position: relative;
     display: flex;
   }
-  .Arrow {
+  .Arrow a p {
     left: 18%;
     top: 70%;
     max-width: 25%;
@@ -952,7 +953,7 @@ p {
     position: relative;
     display: flex;
   }
-  .Arrow {
+  .Arrow a p {
     left: 18%;
     top: 65%;
     max-width: 40%;
