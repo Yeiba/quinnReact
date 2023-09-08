@@ -19,9 +19,11 @@ export const Home = () => {
             <div class="contant" >
                 <div class="Arrow">
                   <a href="#contact">
-                    <p>
-                      if you're on fire!
+                    <p >
+                      •click• <br/>•if you're on fire!•
                     </p>
+
+                   
                   </a>
                  
                 </div>

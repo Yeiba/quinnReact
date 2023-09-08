@@ -129,12 +129,12 @@ p {
     display: flex;
   }
   .Arrow a p {
+    left: 44%;
+    top: 85%;
+    max-width: 30%;
+    transform: rotate(0deg);
     position: absolute;
     z-index: 99;
-    left: 75%;
-    top: 40%;
-    max-width: 10%;
-    transform: rotate(90deg);
     transform-origin: 0 0;
     mix-blend-mode: difference;
     text-decoration: none;
@@ -273,8 +273,10 @@ p {
     display: flex;
   }
   .Arrow a p {
-    left: 80%;
-    top: 40%;
+    left: 43%;
+    top: 85%;
+    max-width: 30%;
+    transform: rotate(0deg);
   }
   .homeTitele {
     top: 30%;
@@ -386,8 +388,10 @@ p {
     display: flex;
   }
   .Arrow a p {
-    left: 84%;
-    top: 40%;
+    left: 42%;
+    top: 85%;
+    max-width: 30%;
+    transform: rotate(0deg);
   }
   .homeTitele {
     top: 30%;
@@ -499,8 +503,10 @@ p {
     display: flex;
   }
   .Arrow a p {
-    left: 84%;
-    top: 40%;
+    left: 41%;
+    top: 85%;
+    max-width: 30%;
+    transform: rotate(0deg);
   }
   .homeTitele {
     top: 28%;
@@ -612,9 +618,10 @@ p {
     display: flex;
   }
   .Arrow a p {
-    left: 85%;
-    top: 40%;
-    max-width: 15%;
+    left: 40%;
+    top: 85%;
+    max-width: 30%;
+    transform: rotate(0deg);
   }
   .homeTitele {
     top: 30%;
@@ -726,9 +733,9 @@ p {
     display: flex;
   }
   .Arrow a p {
-    left: 18%;
-    top: 70%;
-    max-width: 20%;
+    left: 35%;
+    top: 85%;
+    max-width: 30%;
   }
   .homeTitele {
     top: 30%;
@@ -840,9 +847,9 @@ p {
     display: flex;
   }
   .Arrow a p {
-    left: 18%;
-    top: 70%;
-    max-width: 25%;
+    left: 35%;
+    top: 85%;
+    max-width: 40%;
   }
   .homeTitele {
     top: 30%;
@@ -954,9 +961,9 @@ p {
     display: flex;
   }
   .Arrow a p {
-    left: 18%;
-    top: 65%;
-    max-width: 40%;
+    left: 30%;
+    top: 85%;
+    max-width: 50%;
   }
   .homeTitele {
     top: 32%;
