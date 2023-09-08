@@ -146,7 +146,7 @@ p {
     mix-blend-mode: difference;
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 20%;
     color: #D1D1D1;
     text-align: left;
     font-family: Helvetica;
@@ -161,7 +161,7 @@ p {
   .homeP {
     position: absolute;
     top: 65%;
-    left: 25%;
+    left: 20%;
     color: #D1D1D1;
     text-align: left;
     font-family: Helvetica;
@@ -280,12 +280,12 @@ p {
   }
   .homeTitele {
     top: 30%;
-    left: 25%;
+    left: 20%;
     font-size: 5.5rem;
   }
   .homeP {
     top: 60%;
-    left: 25%;
+    left: 20%;
     font-size: 1rem;
   }
   #home_1 {
@@ -395,12 +395,12 @@ p {
   }
   .homeTitele {
     top: 30%;
-    left: 22%;
+    left: 15%;
     font-size: 5.5rem;
   }
   .homeP {
     top: 60%;
-    left: 22%;
+    left: 15%;
     font-size: 1rem;
   }
   #home_1 {
@@ -510,12 +510,12 @@ p {
   }
   .homeTitele {
     top: 28%;
-    left: 20%;
+    left: 15%;
     font-size: 5rem;
   }
   .homeP {
     top: 58%;
-    left: 20%;
+    left: 15%;
     font-size: 1rem;
   }
   #home_1 {

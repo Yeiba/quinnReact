@@ -144,17 +144,12 @@ p {
 @media only screen and (max-width: 1920px) {
 
     section {
-
-
         width: 1920px;
         margin:  2px 0px;
         height: 900px; 
-    
- 
         position: relative; 
         display: flex; 
-       
-     
+
     }
     
     .Arrow a p {
@@ -165,9 +160,6 @@ p {
         transform: rotate(0deg); 
         position: absolute;
         z-index: 99;
-    
- 
-        
         transform-origin: 0 0;  
         mix-blend-mode: difference;
         text-decoration: none;
@@ -189,7 +181,7 @@ p {
         position: absolute;
        
         top: 30%;
-        left: 25%;
+        left: 20%;
 
         color: #D1D1D1;
         text-align: left;
@@ -210,7 +202,7 @@ p {
 
         position: absolute;
         top: 65%;
-        left: 25%;
+        left: 20%;
 
         color: #D1D1D1;
         text-align: left;
@@ -353,7 +345,7 @@ p {
 
        
         top: 30%;
-        left: 25%;
+        left: 20%;
 
         font-size: 5.5rem;
         
@@ -364,7 +356,7 @@ p {
     .homeP {
 
         top: 60%;
-        left: 25%;
+        left: 20%;
 
         font-size: 1rem;
  
@@ -497,7 +489,7 @@ p {
 
        
         top: 30%;
-        left: 22%;
+        left: 15%;
 
         font-size: 5.5rem;
         
@@ -508,7 +500,7 @@ p {
     .homeP {
 
         top: 60%;
-        left: 22%;
+        left: 15%;
 
         font-size: 1rem;
  
@@ -640,7 +632,7 @@ p {
 
        
         top: 28%;
-        left: 20%;
+        left: 15%;
 
         font-size: 5rem;
         
@@ -651,7 +643,7 @@ p {
     .homeP {
 
         top: 58%;
-        left: 20%;
+        left: 15%;
 
         font-size: 1rem;
  
