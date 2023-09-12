@@ -73,7 +73,6 @@ h1{
 
 h2{
     z-index: 99;
-
     mix-blend-mode: difference ;
     color: #D1D1D1;
     text-align: center;
@@ -85,7 +84,6 @@ h2{
 
 h3{
     z-index: 99;
- 
     mix-blend-mode: difference ;
     color: #D1D1D1;
     text-align: center;
@@ -97,7 +95,6 @@ h3{
 
 p {
     z-index: 99;
-    
     mix-blend-mode: difference ;
     color: #D1D1D1;
     text-align: center;
@@ -155,7 +152,6 @@ p {
     .Arrow a p {
         left: 44%;
         top: 85%;
-    
         max-width: 30%;
         transform: rotate(0deg); 
         position: absolute;
@@ -167,22 +163,13 @@ p {
         text-decoration-line: none ;
     }
 
- 
-
-
-
     .homeTitele {
-        
         transition: 0.7s;
-
         mix-blend-mode: difference;
         //animation: moveright 1s ease-in-out forwards;
-
         position: absolute;
-       
         top: 30%;
-        left: 20%;
-
+        left: 23%;
         color: #D1D1D1;
         text-align: left;
         font-family: Helvetica;
@@ -193,17 +180,13 @@ p {
         letter-spacing: -0.28125rem;
         text-transform: uppercase;
         z-index: 1;
-     
     }
     
-
     .homeP {
-
 
         position: absolute;
         top: 65%;
-        left: 20%;
-
+        left: 23%;
         color: #D1D1D1;
         text-align: left;
         font-family: Helvetica;
