@@ -47,7 +47,7 @@
     
     .foter {
         top: 88%;
-        left: 40%;
+        left: 38%;
         position: absolute;
         display: flex;
         z-index: 99;
@@ -65,7 +65,12 @@
 
 
 @media only screen and (max-width: 1600px) {
+    .foter {
 
+        left: 35%;
+       
+
+    }
 }
 @media only screen and (max-width: 1440px) {
     .info {
@@ -85,7 +90,7 @@
 
     .foter {
 
-        left: 35%;
+        left: 33%;
        
 
     }
@@ -106,7 +111,7 @@
     }
     .foter {
 
-        left: 35%;
+        left: 30%;
         
 
 
@@ -130,7 +135,7 @@
 
     .foter {
 
-        left: 30%;
+        left: 26%;
 
 
 
@@ -140,7 +145,7 @@
 @media only screen and (max-width: 768px) {
     .foter {
  
-        left: 25%;
+        left: 18%;
       
     }
 
@@ -162,7 +167,7 @@
     }
     .foter {
      
-        left: 20%;
+        left: 12%;
       
     }
 }
@@ -181,7 +186,7 @@
     .foter {
       
         font-size: .8rem;
-        left: 18%;
+        left: 10%;
       
     }
 }

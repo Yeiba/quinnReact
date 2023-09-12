@@ -30,8 +30,9 @@ export const Contact = () => {
                     
                 </div>
                 <div  class="foter">
-                • created by Quinn Studio 2023 •<br/>  
-                • all rights reserved •<br/>  
+                • Copyright © 2023 Quinn Studio Algiers •<br/>  
+                • all right reserved •<br/>  
+                  
                   
                 </div>
             </div>

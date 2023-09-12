@@ -39,7 +39,7 @@
   }
   .foter {
     top: 88%;
-    left: 40%;
+    left: 38%;
     position: absolute;
     display: flex;
     z-index: 99;
@@ -54,6 +54,11 @@
     letter-spacing: 0.15rem;
   }
 }
+@media only screen and (max-width: 1600px) {
+  .foter {
+    left: 35%;
+  }
+}
 @media only screen and (max-width: 1440px) {
   .info {
     top: 38%;
@@ -64,7 +69,7 @@
     left: 55%;
   }
   .foter {
-    left: 35%;
+    left: 33%;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -78,7 +83,7 @@
     text-align: left;
   }
   .foter {
-    left: 35%;
+    left: 30%;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -92,12 +97,12 @@
     text-align: left;
   }
   .foter {
-    left: 30%;
+    left: 26%;
   }
 }
 @media only screen and (max-width: 768px) {
   .foter {
-    left: 25%;
+    left: 18%;
   }
 }
 @media only screen and (max-width: 624px) {
@@ -110,7 +115,7 @@
     left: 10%;
   }
   .foter {
-    left: 20%;
+    left: 12%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -122,6 +127,6 @@
   }
   .foter {
     font-size: 0.8rem;
-    left: 18%;
+    left: 10%;
   }
 }/*# sourceMappingURL=Contact.css.map */
