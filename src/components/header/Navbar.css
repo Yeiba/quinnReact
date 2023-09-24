@@ -106,6 +106,7 @@ nav ul li a.active {
     display: block;
     text-decoration: none;
     color: white;
+    background: #1f1f1f;
     padding: 0.8em 0.6em;
     font-family: Helvetica;
     font-style: normal;
