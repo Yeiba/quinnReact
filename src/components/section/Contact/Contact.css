@@ -43,7 +43,7 @@
     position: absolute;
     display: flex;
     z-index: 99;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     mix-blend-mode: difference;
     color: #D1D1D1;
     text-align: center;

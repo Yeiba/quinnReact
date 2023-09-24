@@ -35,6 +35,7 @@ export const Contact = () => {
                 <br/> 
                 • Copyright © 2023 Quinn Studio Algiers •<br/>  
                 • all right reserved •<br/>  
+                
                   
                   
                 </div>
