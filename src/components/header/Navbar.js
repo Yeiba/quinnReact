@@ -66,7 +66,7 @@ const scrollToSection = (section) => {
   const sectionElement = document.getElementById(section);
   if (sectionElement) {
     sectionElement.scrollIntoView({ behavior: 'smooth' });
-    setIsMenuVisible(true); // Close the menu when a section is clicked
+    setIsMenuVisible(false); // Close the menu when a section is clicked
   }
 };
 //////////////////////////

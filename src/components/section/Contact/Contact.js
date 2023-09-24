@@ -30,6 +30,9 @@ export const Contact = () => {
                     
                 </div>
                 <div  class="foter">
+                • Privacy & Terms •   <br/> 
+                <br/> 
+                <br/> 
                 • Copyright © 2023 Quinn Studio Algiers •<br/>  
                 • all right reserved •<br/>  
                   

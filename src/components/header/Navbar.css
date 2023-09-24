@@ -85,14 +85,14 @@ nav ul li a.active {
   nav {
     justify-content: space-between;
     position: fixed;
-    right: 35px;
+    right: 15px;
     top: 60px;
     height: 40px;
     z-index: 999;
     text-transform: uppercase;
   }
   nav ul {
-    left: 0px;
+    left: 70px;
     visibility: hidden;
     opacity: 0;
     transition: 0.7s;
@@ -105,8 +105,7 @@ nav ul li a.active {
     border-radius: 0.4em;
     display: block;
     text-decoration: none;
-    color: black;
-    background: white;
+    color: white;
     padding: 0.8em 0.6em;
     font-family: Helvetica;
     font-style: normal;
@@ -118,7 +117,7 @@ nav ul li a.active {
   nav ul li a:hover,
   nav ul li a.active {
     color: white;
-    background: rgb(131, 131, 131);
+    background: rgb(59, 59, 59);
     font-size: 12px;
     text-decoration-line: none;
   }
@@ -166,7 +165,7 @@ nav ul li a.active {
     text-transform: uppercase;
   }
   nav ul {
-    left: 0;
+    left: 85px;
     opacity: 0;
     transition: 0.7s;
     visibility: hidden;
@@ -179,8 +178,6 @@ nav ul li a.active {
     border-radius: 0.3em;
     display: block;
     text-decoration: none;
-    color: black;
-    background: white;
     padding: 0.8em 0.6em;
     font-family: Helvetica;
     font-style: normal;
@@ -192,7 +189,6 @@ nav ul li a.active {
   nav ul li a:hover,
   nav ul li a.active {
     color: white;
-    background: rgb(131, 131, 131);
     font-size: 10px;
   }
 }
@@ -238,7 +234,7 @@ nav ul li a.active {
     text-transform: uppercase;
   }
   nav ul {
-    left: 0;
+    left: 80px;
     visibility: hidden;
     opacity: 0;
     transition: 0.7s;
@@ -251,8 +247,6 @@ nav ul li a.active {
     border-radius: 0.3em;
     display: block;
     text-decoration: none;
-    color: black;
-    background: white;
     padding: 0.8em 0.4em;
     font-family: Helvetica;
     font-style: normal;
@@ -265,7 +259,6 @@ nav ul li a.active {
   nav ul li a:hover,
   nav ul li a.active {
     color: white;
-    background: rgb(131, 131, 131);
     font-size: 10px;
   }
 }
@@ -311,7 +304,7 @@ nav ul li a.active {
     text-transform: uppercase;
   }
   nav ul {
-    left: 0;
+    left: 80px;
     visibility: hidden;
     opacity: 0;
     transition: 0.7s;
@@ -323,8 +316,6 @@ nav ul li a.active {
     border-radius: 0.3em;
     display: block;
     text-decoration: none;
-    color: black;
-    background: white;
     padding: 0.8em 0.4em;
     font-family: Helvetica;
     font-style: normal;
@@ -336,7 +327,6 @@ nav ul li a.active {
   nav ul li a:hover,
   nav ul li a.active {
     color: white;
-    background: rgb(131, 131, 131);
     font-size: 10px;
   }
 }/*# sourceMappingURL=Navbar.css.map */
