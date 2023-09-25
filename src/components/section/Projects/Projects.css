@@ -8,7 +8,7 @@
   .WorkP {
     font-size: 0.8rem;
     mix-blend-mode: difference;
-    text-align: left;
+    text-align: center;
   }
   .outer {
     z-index: 1;

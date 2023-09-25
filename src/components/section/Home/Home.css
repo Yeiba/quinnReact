@@ -7,6 +7,10 @@
   scrollbar-width: thin;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   transition: 1s;
   opacity: 0.3;

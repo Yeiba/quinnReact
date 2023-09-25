@@ -39,7 +39,7 @@
   }
   .foter {
     top: 88%;
-    left: 38%;
+    left: 40%;
     position: absolute;
     display: flex;
     z-index: 99;
@@ -56,7 +56,7 @@
 }
 @media only screen and (max-width: 1600px) {
   .foter {
-    left: 35%;
+    left: 38%;
   }
 }
 @media only screen and (max-width: 1440px) {
@@ -69,7 +69,7 @@
     left: 55%;
   }
   .foter {
-    left: 33%;
+    left: 36%;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -83,7 +83,7 @@
     text-align: left;
   }
   .foter {
-    left: 30%;
+    left: 34%;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -97,12 +97,12 @@
     text-align: left;
   }
   .foter {
-    left: 26%;
+    left: 32%;
   }
 }
 @media only screen and (max-width: 768px) {
   .foter {
-    left: 18%;
+    left: 25%;
   }
 }
 @media only screen and (max-width: 624px) {
@@ -115,7 +115,7 @@
     left: 10%;
   }
   .foter {
-    left: 12%;
+    left: 20%;
   }
 }
 @media only screen and (max-width: 480px) {

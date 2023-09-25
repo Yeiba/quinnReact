@@ -37,6 +37,7 @@ export const Services = () => {
                             #WEB_APPLICATION <br/>
                             #MOBIL_APPLICATION <br/>
                             #DATA_SCIENCE <br/>
+                            #BIG_DATA_engineering <br/>
 
                         </p>
                     </div>

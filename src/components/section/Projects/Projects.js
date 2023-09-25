@@ -19,71 +19,81 @@ export const Projects = () => {
                     <div class="border_2_1" ></div>
                     
                     <div class="box2">
+                    
                         <h1 data-aos="fade-right" class="WorkH">
                             Nula<br/> 
-                            full branding <br/> 
-                            </h1>
-                        <p data-aos="fade-up" class="WorkP">
                            
-                            virtual project  <br/>
-                            #suggestion_project <br/>
+                            </h1>
                             
+                        <a href="https://www.behance.net/gallery/175804979/Nla-Milk-Box-3D-Packaging" target='_blank' >
+                            <p data-aos="fade-up" class="WorkP">
 
-                        </p>
+                                • click • <br/>
+                                • to See the project •  <br/>
+                                
+                                
+
+                            </p>
+                        </a>
+                        
                     </div>
                     <div class="box2">
                         <h1 data-aos="fade-right" class="WorkH">
                             Bricool<br/> 
-                            full branding <br/> 
+                         
                         </h1>
-                        <p data-aos="fade-up" href="" class="WorkP">
+                        <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                            <p data-aos="fade-up" class="WorkP">
+                            
+                                • click • <br/>
+                                • to See the project •  <br/>
+                                
 
-                            real project  <br/>
-                            #suggestion_project <br/>
-                           
-                        </p>
+                            </p>
+                        </a>
                        
                     </div>
                     <div class="box2">
                         <h1 data-aos="fade-right" class="WorkH">
                             kacademy <br/> 
-                            full branding <br/> 
+                         
                             </h1>
-                        <p data-aos="fade-up" href="" class="WorkP">
+                            <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                            <p data-aos="fade-up" class="WorkP">
+                            
+                                • click • <br/>
+                                • to See the project •  <br/>
+                                
 
-                            real project  <br/>
-                            #suggestion_project <br/>
-                          
-
-                        </p>
+                            </p>
+                        </a>
                         
                     </div>
                     <div class="box2">
                         <h1 data-aos="fade-right" class="WorkH">
                             iprobooking<br/> 
-                            full branding <br/> 
-                            DATA SCIENCE <br/>
+                            
                             </h1>
-                        <p data-aos="fade-up" href="" class="WorkP">
+                            <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                            <p data-aos="fade-up" class="WorkP">
+                            
+                                • click • <br/>
+                                • to See the project •  <br/>
+                                
 
-                            real project  <br/>
-                            #suggestion_project <br/>
-
-                        </p>
+                            </p>
+                        </a>
                        
                     </div>
                     <div class="box2">
+                    <a href="https://www.behance.net/quinndsgn" target='_blank' >
                         <h1 data-aos="fade-right" class="WorkH">
-                            see  <br/>
-                            all projects
-                            </h1>
-                        
-
                             
-                            
-                        
-                       
-                     
+                                • click • <br/>
+                                • to See all project •  <br/>
+                    
+                                </h1>
+                            </a>
                     </div>
                     <div class="border_2_2" ></div>
                 </div>
