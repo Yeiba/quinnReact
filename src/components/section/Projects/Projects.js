@@ -82,12 +82,13 @@ export const Projects = () => {
                     <a href="https://www.behance.net/quinndsgn" target='_blank' >
                         <div class="box2">
                         
-                            <p data-aos="fade-right" class="WorkP" >
+                            <h1 data-aos="fade-right" class="WorkP" >
                                 
                                     • click • <br/>
-                                    • to See all project •  <br/>
+                                    • to See all projects •  <br/>
+                                    • on behance •  <br/>
                         
-                                    </p>
+                                    </h1>
                         </div>
                     </a>
                     <div class="border_2_2" ></div>
