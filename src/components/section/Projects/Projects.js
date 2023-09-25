@@ -17,84 +17,79 @@ export const Projects = () => {
                 <div class="inner">
                     
                     <div class="border_2_1" ></div>
-                    
-                    <div class="box2">
-                    
-                        <h1 data-aos="fade-right" class="WorkH">
-                            Nula<br/> 
-                           
-                            </h1>
-                            
-                        <a href="https://www.behance.net/gallery/175804979/Nla-Milk-Box-3D-Packaging" target='_blank' >
-                            <p data-aos="fade-up" class="WorkP">
-
-                                • click • <br/>
-                                • to See the project •  <br/>
-                                
-                                
-
-                            </p>
-                        </a>
+                    <a href="https://www.behance.net/gallery/175804979/Nla-Milk-Box-3D-Packaging" target='_blank' >
+                        <div class="box2">
                         
-                    </div>
-                    <div class="box2">
-                        <h1 data-aos="fade-right" class="WorkH">
-                            Bricool<br/> 
-                         
-                        </h1>
-                        <a href="https://www.behance.net/quinndsgn" target='_blank' >
-                            <p data-aos="fade-up" class="WorkP">
+                            <h1 data-aos="fade-right" class="WorkH">
+                                Nula<br/> 
                             
-                                • click • <br/>
-                                • to See the project •  <br/>
-                                
-
-                            </p>
-                        </a>
-                       
-                    </div>
-                    <div class="box2">
-                        <h1 data-aos="fade-right" class="WorkH">
-                            kacademy <br/> 
-                         
-                            </h1>
-                            <a href="https://www.behance.net/quinndsgn" target='_blank' >
-                            <p data-aos="fade-up" class="WorkP">
-                            
-                                • click • <br/>
-                                • to See the project •  <br/>
-                                
-
-                            </p>
-                        </a>
-                        
-                    </div>
-                    <div class="box2">
-                        <h1 data-aos="fade-right" class="WorkH">
-                            iprobooking<br/> 
-                            
-                            </h1>
-                            <a href="https://www.behance.net/quinndsgn" target='_blank' >
-                            <p data-aos="fade-up" class="WorkP">
-                            
-                                • click • <br/>
-                                • to See the project •  <br/>
-                                
-
-                            </p>
-                        </a>
-                       
-                    </div>
-                    <div class="box2">
-                    <a href="https://www.behance.net/quinndsgn" target='_blank' >
-                        <h1 data-aos="fade-right" class="WorkH">
-                            
-                                • click • <br/>
-                                • to See all project •  <br/>
-                    
                                 </h1>
-                            </a>
-                    </div>
+                                <p data-aos="fade-up" class="WorkP">
+
+                                    • click • <br/>
+                                    • to See the project •  <br/>
+                                </p>
+                        </div>
+                    </a>
+                    <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                        <div class="box2">
+                            <h1 data-aos="fade-right" class="WorkH">
+                                Bricool<br/> 
+                            
+                            </h1>
+                            
+                                <p data-aos="fade-up" class="WorkP">
+                                
+                                    • click • <br/>
+                                    • to See the project •  <br/>
+                                </p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                        <div class="box2">
+                            <h1 data-aos="fade-right" class="WorkH">
+                                kacademy <br/> 
+                            
+                                </h1>
+                                
+                                <p data-aos="fade-up" class="WorkP">
+                                
+                                    • click • <br/>
+                                    • to See the project •  <br/>
+                                    
+
+                                </p>
+    
+                        </div>
+                    </a>
+
+                    <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                        <div class="box2">
+                            <h1 data-aos="fade-right" class="WorkH">
+                                iprobooking<br/> 
+                                
+                                </h1>
+                                
+                                <p data-aos="fade-up" class="WorkP">
+                                
+                                    • click • <br/>
+                                    • to See the project •  <br/>
+                                </p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                        <div class="box2">
+                        
+                            <h1 data-aos="fade-right" class="WorkH">
+                                
+                                    • click • <br/>
+                                    • to See all project •  <br/>
+                        
+                                    </h1>
+                        </div>
+                    </a>
                     <div class="border_2_2" ></div>
                 </div>
                 <div class="Frame3" id="work_1"></div>
