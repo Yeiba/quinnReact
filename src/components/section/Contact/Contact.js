@@ -15,12 +15,11 @@ export const Contact = () => {
      <section id="contact">
             <div data-aos="fade-right" class="note2">#contact_us\</div>
             <div class="contactcontant" >
-               
                 <div data-aos="fade-up" class="info">yaakoub belhardi<br/>
                     CEO, founder <br/>
                     yaakoubbelhardi@gamil.com<br/>
                     said hamdine, bir mourad raïs, ALGIERS<br/>
-                    (+213) 558 64 84 73
+                    (+213) 662 58 59 81 
                     
                 </div>
                 <div data-aos="fade-up" class="info2">KAssia kaci<br/>
@@ -31,7 +30,6 @@ export const Contact = () => {
                     
                 </div>
                 <div data-aos="fade-up" data-aos-duration="3500" class="SM">
-
                     <br/>facebook.com/quinn.dsgn/
                     <br/>instagram.com/quinn.dsgn/
                     <br/>linkedin.com/company/quinnadsagency/
@@ -44,9 +42,6 @@ export const Contact = () => {
                 <br/> 
                 • Copyright © 2023 Quinn Studio Algiers •<br/>  
                 • all right reserved •<br/>  
-                
-                  
-                  
                 </div>
             </div>
             <div class="Background">
@@ -60,7 +55,6 @@ export const Contact = () => {
                 <div class="Frame1" id="home_8"></div>
                 <div class="Frame1" id="home_9"></div>
             </div>
-          
         </section>
     </>
     
