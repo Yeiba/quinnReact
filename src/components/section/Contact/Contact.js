@@ -17,12 +17,14 @@ export const Contact = () => {
             <div class="contactcontant" >
                
                 <div data-aos="fade-up" class="info">yaakoub belhardi<br/>
+                    CEO, founder <br/>
                     yaakoubbelhardi@gamil.com<br/>
                     said hamdine, bir mourad raïs, ALGIERS<br/>
                     (+213) 558 64 84 73
                     
                 </div>
                 <div data-aos="fade-up" class="info2">KAssia kaci<br/>
+                    sales & marketing manager <br/>
                     kassiakaci06@gmail.com <br/>
                     TIZI OUZOU, ALGERIA<br/>
                     (+213) 676 38 46 49 
