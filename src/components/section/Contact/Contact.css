@@ -21,6 +21,22 @@
     font-weight: 50;
     letter-spacing: 0.15rem;
   }
+  .info2 {
+    top: 60%;
+    left: 15%;
+    position: absolute;
+    display: flex;
+    z-index: 99;
+    font-size: 1.1rem;
+    mix-blend-mode: difference;
+    color: #D1D1D1;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 50;
+    letter-spacing: 0.15rem;
+  }
   .SM {
     top: 30%;
     left: 55%;
@@ -77,8 +93,12 @@
     top: 30%;
     left: 10%;
   }
-  .SM {
+  .info2 {
     top: 45%;
+    left: 10%;
+  }
+  .SM {
+    top: 60%;
     left: 10%;
     text-align: left;
   }
@@ -91,8 +111,12 @@
     top: 25%;
     left: 10%;
   }
-  .SM {
+  .info2 {
     top: 40%;
+    left: 10%;
+  }
+  .SM {
+    top: 60%;
     left: 10%;
     text-align: left;
   }
@@ -110,8 +134,12 @@
     top: 20%;
     left: 10%;
   }
-  .SM {
+  .info2 {
     top: 35%;
+    left: 10%;
+  }
+  .SM {
+    top: 55%;
     left: 10%;
   }
   .foter {
@@ -120,6 +148,9 @@
 }
 @media only screen and (max-width: 480px) {
   .info {
+    font-size: 0.8rem;
+  }
+  .info2 {
     font-size: 0.8rem;
   }
   .SM {

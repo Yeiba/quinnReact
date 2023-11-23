@@ -27,6 +27,24 @@
     
         
     }
+    .info2 {
+        top: 60%;
+        left: 15%;
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        font-size: 1.1rem;
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-style: normal;
+        text-transform: uppercase;
+        font-weight: 50;
+        letter-spacing: .15rem;
+    
+        
+    }
     
     .SM {
         top: 30%;
@@ -77,8 +95,6 @@
         top: 38%;
         left: 15%;
         
-    
-
     }
     
     .SM {
@@ -102,9 +118,15 @@
         
 
     }
+    .info2 {
+        top: 45%;
+        left: 10%;
+        
+
+    }
     
     .SM {
-        top: 45%;
+        top: 60%;
         left: 10%;
         text-align: left;
       
@@ -122,12 +144,17 @@
     .info {
         top: 25%;
         left: 10%;
-        
 
     }
+    .info2 {
+        top: 40%;
+        left: 10%;
+
+    }
+
     
     .SM {
-        top: 40%;
+        top: 60%;
         left: 10%;
         text-align: left;
       
@@ -158,9 +185,15 @@
         
 
     }
+    .info2 {
+        top: 35%;
+        left: 10%;
+        
+
+    }
     
     .SM {
-        top: 35%;
+        top: 55%;
         left: 10%;
       
       
@@ -173,6 +206,11 @@
 }
 @media only screen and (max-width: 480px) {
     .info {
+  
+        font-size: .8rem;
+
+    }
+    .info2 {
   
         font-size: .8rem;
 

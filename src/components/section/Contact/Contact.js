@@ -16,10 +16,16 @@ export const Contact = () => {
             <div data-aos="fade-right" class="note2">#contact_us\</div>
             <div class="contactcontant" >
                
-                <div data-aos="fade-up" class="info">jacob@quinn.com<br/>
+                <div data-aos="fade-up" class="info">yaakoub belhardi<br/>
                     yaakoubbelhardi@gamil.com<br/>
                     said hamdine, bir mourad raïs, ALGIERS<br/>
                     (+213) 558 64 84 73
+                    
+                </div>
+                <div data-aos="fade-up" class="info2">KAssia kaci<br/>
+                    kassiakaci06@gmail.com <br/>
+                    TIZI OUZOU, ALGERIA<br/>
+                    (+213) 676 38 46 49 
                     
                 </div>
                 <div data-aos="fade-up" data-aos-duration="3500" class="SM">
