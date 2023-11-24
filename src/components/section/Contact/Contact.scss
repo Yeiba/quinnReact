@@ -29,7 +29,7 @@
     }
     .info2 {
         top: 60%;
-        left: 15%;
+        left: 20%;
         position: absolute;
         display: flex;
         z-index: 99;
@@ -93,6 +93,11 @@
 @media only screen and (max-width: 1440px) {
     .info {
         top: 38%;
+        left: 15%;
+        
+    }
+    .info2 {
+     
         left: 15%;
         
     }
