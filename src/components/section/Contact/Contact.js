@@ -18,9 +18,8 @@ export const Contact = () => {
                 <div data-aos="fade-up" class="info">yaakoub belhardi<br/>
                     CEO, founder <br/>
                     yaakoubbelhardi@gamil.com<br/>
-                    said hamdine, bir mourad raïs, ALGIERS<br/>
+                    bir mourad raïs, ALGIERS<br/>
                     (+213) 662 58 59 81 
-                    
                 </div>
                 <div data-aos="fade-up" class="info2">KAssia kaci<br/>
                     sales & marketing manager <br/>
