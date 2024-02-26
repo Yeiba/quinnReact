@@ -16,30 +16,30 @@ export const Contact = () => {
                 <div data-aos="fade-right" class="note2">#contact_us\</div>
                 <div class="contactcontant" >
                     <div data-aos="fade-up" class="info">yaakoub belhardi<br />
-                        CEO, founder <br />
-                        yaakoubbelhardi@gamil.com<br />
+                        CEO Founder <br />
+                        yaakoubbelhardi@quinnfuture.com<br />
                         bir mourad raïs, ALGIERS<br />
                         (+213) 662 58 59 81
                     </div>
                     <div data-aos="fade-up" class="info2">KAssia kaci<br />
-                        sales & marketing manager <br />
-                        kassiakaci06@gmail.com <br />
+                        Sales & Marketing Manager <br />
+                        kassiakaci@quinnfuture.com<br />
                         TIZI OUZOU, ALGERIA<br />
                         (+213) 676 38 46 49
 
                     </div>
                     <div data-aos="fade-up" data-aos-duration="3500" class="SM">
-                        <br />facebook.com/quinn.dsgn/
-                        <br />instagram.com/quinn.dsgn/
-                        <br />linkedin.com/company/quinnadsagency/
-                        <br />www.behance.net/quinndsgn/
+                        <br />facebook @quinnfuture
+                        <br />instagram @quinnfuture
+                        <br />behance @quinnfuture
+                        <br />linkedin /company/quinnfuture
 
                     </div>
                     <div class="foter">
                         • Privacy & Terms •   <br />
                         <br />
                         <br />
-                        • Copyright © 2023 Quinn Studio Algiers •<br />
+                        • Copyright © 2023 Quinn Future •<br />
                         • all right reserved •<br />
                     </div>
                 </div>
