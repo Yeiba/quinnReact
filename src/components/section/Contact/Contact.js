@@ -39,7 +39,7 @@ export const Contact = () => {
                         • Privacy & Terms •   <br />
                         <br />
                         <br />
-                        • Copyright © 2023 Quinn Future •<br />
+                        • Copyright © 2023 Quinn future •<br />
                         • all right reserved •<br />
                     </div>
                 </div>
